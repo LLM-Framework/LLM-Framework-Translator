@@ -44,3 +44,15 @@ install:
 # Load testing with Locust
 load-test:
 	locust -f scripts/load_test.py --host=http://localhost:8001
+
+# Setup virtual environment
+setup-env:
+	python3 -m venv venv
+	@echo "✅ Virtual environment created"
+	@echo "📦 Run 'make install' to install dependencies"
+	@echo "🔓 Run 'source venv/bin/activate' to activate"
+
+# Activate environment (with helper message)
+activate:
+	@echo "🔓 Run this command to activate:"
+	@echo "source venv/bin/activate"

@@ -114,3 +114,11 @@ graph LR
     style Evaluator fill:#e8f5e9,stroke:#1b5e20
     style Frontend fill:#f3e5f5,stroke:#4a148c
 ```
+
+## Лицензия
+
+MIT
+
+## Автор
+Ермолинская Александра Александровна
+УрФУ, группа РИМ-150975к
